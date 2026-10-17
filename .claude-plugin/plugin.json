@@ -1,7 +1,7 @@
 {
   "name": "viridis-scope-desk",
   "displayName": "Viridis Scope Desk",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Draft evidence-linked job scopes and baseline-bound change requests from supplied facts for people and agents.",
   "author": {
     "name": "Justin Hart"
@@ -14,5 +14,11 @@
     "change-request",
     "agent-delivery",
     "service-business"
-  ]
+  ],
+  "homepage": "https://github.com/jdhart81/viridis-scope-desk",
+  "repository": "https://github.com/jdhart81/viridis-scope-desk",
+  "documentationUrl": "https://raw.githubusercontent.com/jdhart81/viridis-scope-desk/69b8c8dfca0a2361a38f22b6ed4473051b1ef069/README.md",
+  "supportUrl": "https://raw.githubusercontent.com/jdhart81/viridis-scope-desk/69b8c8dfca0a2361a38f22b6ed4473051b1ef069/SUPPORT.md",
+  "privacyPolicyUrl": "https://raw.githubusercontent.com/jdhart81/viridis-scope-desk/69b8c8dfca0a2361a38f22b6ed4473051b1ef069/PRIVACY.md",
+  "termsOfServiceUrl": "https://raw.githubusercontent.com/jdhart81/viridis-scope-desk/310616063b0fc724f3cd58d12afbe4d18f97b3ff/TERMS.md"
 }

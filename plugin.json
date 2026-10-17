@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "viridis-scope-desk",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Draft evidence-linked job scopes and baseline-bound change requests from supplied facts for people and agents.",
   "author": {
     "name": "Justin Hart"
@@ -26,10 +26,14 @@
           "Compare this proposed request with the selected baseline revision and draft a change request."
         ],
         "logo": "assets/viridis-logo.png",
-        "composerIcon": "assets/viridis-logo.png"
+        "composerIcon": "assets/viridis-logo.png",
+        "websiteURL": "https://raw.githubusercontent.com/jdhart81/viridis-scope-desk/69b8c8dfca0a2361a38f22b6ed4473051b1ef069/README.md",
+        "supportURL": "https://raw.githubusercontent.com/jdhart81/viridis-scope-desk/69b8c8dfca0a2361a38f22b6ed4473051b1ef069/SUPPORT.md",
+        "privacyPolicyURL": "https://raw.githubusercontent.com/jdhart81/viridis-scope-desk/69b8c8dfca0a2361a38f22b6ed4473051b1ef069/PRIVACY.md",
+        "termsOfServiceURL": "https://raw.githubusercontent.com/jdhart81/viridis-scope-desk/310616063b0fc724f3cd58d12afbe4d18f97b3ff/TERMS.md"
       },
       "publication": {
-        "release_notes": "Public source projection of the tested 0.1.5 two-skill capability. Both skills and the shared evidence reference are unchanged; host manifests and public documentation are separate."
+        "release_notes": "Adds verified public Scope Desk information, support and privacy links plus product usage terms. The two skills and shared evidence rules remain byte-identical to tested 0.1.5."
       }
     }
   }

@@ -13,6 +13,6 @@ Start with the [synthetic example](examples/README.md). Choose the skill in a co
 
 This is a skills-only package: it contains instructions and reference text, with no executable helper, MCP server, connected app, credential, network client, independent storage or automatic fleet connection. Host model outputs still require review. Installation does not establish successful invocation, and a well-written scope is not an accepted contract or completed delivery. No automatic sending, signing, approval, payment or account action occurs.
 
-The instructions describe a private drafting workflow. That means the plugin does not send or publish your work; it is not a promise about your chosen host's privacy, retention or sharing settings. See [privacy and data handling](PRIVACY.md), [support](SUPPORT.md) and the [MIT license](LICENSE).
+The instructions describe a private drafting workflow. That means the plugin does not send or publish your work; it is not a promise about your chosen host's privacy, retention or sharing settings. See [privacy and data handling](PRIVACY.md), [support](SUPPORT.md), [product usage terms](TERMS.md) and the [MIT license](LICENSE).
 
 Maintained by Viridis North LLC; authored by Justin Hart. This source does not assert verified directory publisher identity, directory acceptance, customer adoption, labor savings or revenue. Public source availability and a host's directory listing are separate release states. This package does not sell or upsell a digital service.
