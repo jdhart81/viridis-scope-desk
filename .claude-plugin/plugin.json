@@ -1,0 +1,18 @@
+{
+  "name": "viridis-scope-desk",
+  "displayName": "Viridis Scope Desk",
+  "version": "0.1.5",
+  "description": "Draft evidence-linked job scopes and baseline-bound change requests from supplied facts for people and agents.",
+  "author": {
+    "name": "Justin Hart"
+  },
+  "license": "MIT",
+  "icon": "assets/viridis-logo.png",
+  "keywords": [
+    "scope",
+    "acceptance-criteria",
+    "change-request",
+    "agent-delivery",
+    "service-business"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "viridis-scope-desk",
+  "version": "0.1.5",
+  "description": "Draft evidence-linked job scopes and baseline-bound change requests from supplied facts for people and agents.",
+  "author": {
+    "name": "Justin Hart"
+  },
+  "license": "MIT",
+  "keywords": [
+    "scope",
+    "acceptance criteria",
+    "change request",
+    "agent delivery",
+    "service business"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Viridis Scope Desk",
+        "shortDescription": "Clear scopes and change drafts",
+        "longDescription": "Turn a supplied brief into a reviewable job scope with deliverables, exclusions, observable acceptance criteria and missing decisions. Compare a proposed request with an explicitly selected baseline revision and draft a change request. Evidence quotes retain source IDs and original line numbers; proposed checks stay unexecuted. For service operators and agent builders. No code execution, MCP tools, signing, acceptance, pricing decisions or automatic sharing.",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Scope this job from the supplied brief, including acceptance criteria and missing decisions.",
+          "Compare this proposed request with the selected baseline revision and draft a change request."
+        ],
+        "logo": "assets/viridis-logo.png",
+        "composerIcon": "assets/viridis-logo.png"
+      },
+      "publication": {
+        "release_notes": "Public source projection of the tested 0.1.5 two-skill capability. Both skills and the shared evidence reference are unchanged; host manifests and public documentation are separate."
+      }
+    }
+  }
+}
