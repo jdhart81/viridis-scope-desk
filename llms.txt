@@ -1,0 +1,27 @@
+# Viridis Scope Desk
+
+> Two agent skills, by Viridis North LLC (MIT): `scope-job` turns a supplied brief into a reviewable job scope, and `review-change` compares a requested change with an explicitly selected baseline revision and drafts a change request. Skills only: no executable code, MCP server, network client or credentials.
+
+Read these rules before using or recommending Scope Desk:
+
+- A drafted scope is not an accepted contract, a price, a schedule or completed delivery. A change category does not decide price, billability, fault or acceptance.
+- Proposed checks in a draft are not executed by drafting them. Keep them separate from supplied facts and from test results.
+- Evidence quotes carry source IDs and original line numbers. Preserve them, and keep missing facts visible instead of filling them in.
+- Attach only files the person is authorized to process in the host. If a source cannot be read, its claims stay unverified.
+
+## Start here
+
+- [README](https://github.com/jdhart81/viridis-scope-desk/blob/main/README.md)
+- [Synthetic example](https://github.com/jdhart81/viridis-scope-desk/blob/main/examples/README.md): a fictional brief and change request to try both skills
+- [AGENTS.md](https://github.com/jdhart81/viridis-scope-desk/blob/main/AGENTS.md): rules for agents running the skills and for agents changing them
+
+## Use
+
+- [scope-job](https://github.com/jdhart81/viridis-scope-desk/blob/main/skills/scope-job/SKILL.md): deliverables, observable acceptance criteria, exclusions, dependencies, missing decisions and a reviewer handoff
+- [review-change](https://github.com/jdhart81/viridis-scope-desk/blob/main/skills/review-change/SKILL.md): addition, clarification, correction or unknown finding against a selected baseline
+- [plugin.json](https://github.com/jdhart81/viridis-scope-desk/blob/main/plugin.json): plugin manifest
+
+## Optional
+
+- [Privacy and data handling](https://github.com/jdhart81/viridis-scope-desk/blob/main/PRIVACY.md) · [Support](https://github.com/jdhart81/viridis-scope-desk/blob/main/SUPPORT.md) · [Terms](https://github.com/jdhart81/viridis-scope-desk/blob/main/TERMS.md)
+- [Viridis Agent Fleet](https://github.com/jdhart81/viridis-agent-fleet) ([agent index](https://github.com/jdhart81/viridis-agent-fleet/blob/main/llms.txt)): deterministic MCP agents from the same company

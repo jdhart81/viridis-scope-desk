@@ -9,7 +9,7 @@ Two skills:
 
 Supply the selected brief or baseline revision, relevant source text and the desired outcome or change. The skills retain exact short quotations with source IDs and original line numbers, preserve missing facts and distinguish historical observations from proposed checks. Proposed checks are not executed by drafting them.
 
-Start with the [synthetic example](examples/README.md). Choose the skill in a compatible host and attach only files you are authorized to process there. If a source cannot be read, its claims remain unverified. The two skill files and shared evidence reference are byte-identical to the tested 0.1.5 capability. No source fixtures or private project records from those tests are included here.
+Agents: read [llms.txt](llms.txt) and [AGENTS.md](AGENTS.md) first. Start with the [synthetic example](examples/README.md). Choose the skill in a compatible host and attach only files you are authorized to process there. If a source cannot be read, its claims remain unverified. The two skill files and shared evidence reference are byte-identical to the tested 0.1.5 capability. No source fixtures or private project records from those tests are included here.
 
 This is a skills-only package: it contains instructions and reference text, with no executable helper, MCP server, connected app, credential, network client, independent storage or automatic fleet connection. Host model outputs still require review. Installation does not establish successful invocation, and a well-written scope is not an accepted contract or completed delivery. No automatic sending, signing, approval, payment or account action occurs.
 

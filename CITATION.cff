@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use Viridis Scope Desk, please cite it as below."
+title: "Viridis Scope Desk"
+abstract: "Two agent skills that draft evidence-linked job scopes and baseline-bound change requests from supplied facts."
+type: software
+authors:
+  - family-names: Hart
+    given-names: Justin
+    affiliation: Viridis North LLC
+    orcid: "https://orcid.org/0009-0008-3082-2482"
+license: MIT
+repository-code: "https://github.com/jdhart81/viridis-scope-desk"
+version: "0.1.6"
+keywords:
+  - agent skills
+  - job scope
+  - acceptance criteria
+  - change request
